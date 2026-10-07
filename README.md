@@ -3,7 +3,7 @@
 Startseite der Organisation `discoverylabs-uibk`, veröffentlicht mit GitHub Pages unter
 https://discoverylabs-uibk.github.io/
 
-Jedes Schülerlabor hat ein eigenes Repository mit eigener Unterseite, zum Beispiel
+Jedes Lernlabor hat ein eigenes Repository mit eigener Unterseite, zum Beispiel
 `quantumcrypto` unter https://discoverylabs-uibk.github.io/quantumcrypto/
 
 ## Ein neues Labor hinzufügen
