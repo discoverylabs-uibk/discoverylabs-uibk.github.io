@@ -1,0 +1,26 @@
+/* Aussehen der Seite. Texte stehen in den .md-Dateien, nicht hier. */
+
+:root,
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #EAF4FB;          /* Seitenhintergrund, wie beim RSA-Rechner */
+  --md-primary-fg-color: #2E74B5;          /* Kopfzeile */
+  --md-primary-fg-color--light: #5a95cb;
+  --md-primary-fg-color--dark: #1F3A5F;
+  --md-accent-fg-color: #2E74B5;           /* Links beim Darüberfahren */
+  --md-typeset-a-color: #1F5F9E;           /* Links */
+  --md-footer-bg-color: #1F3A5F;
+  --md-footer-bg-color--dark: #16304f;
+}
+
+/* Karten auf der Startseite: weiß auf hellblau */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  background: #ffffff;
+  border-color: #cfdbe5;
+}
+
+/* Kleiner Zurück-Link über der Überschrift */
+.md-typeset .zurueck {
+  margin: 0 0 .4rem;
+  font-size: .8rem;
+}

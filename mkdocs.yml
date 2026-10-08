@@ -1,0 +1,37 @@
+# Einstellungen und Aussehen. Die Texte stehen in website/*.md
+site_name: "Discovery Labs Innsbruck"
+site_description: "Materialien und digitale Werkzeuge für Lernlabore in Innsbruck."
+site_url: https://discoverylabs-uibk.github.io/
+repo_url: https://github.com/discoverylabs-uibk/discoverylabs-uibk.github.io
+repo_name: discoverylabs-uibk/discoverylabs-uibk.github.io
+docs_dir: website
+edit_uri: edit/main/website/
+copyright: >
+  Discovery Labs Innsbruck.
+
+theme:
+  name: material
+  language: de
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.action.edit
+    - navigation.footer
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - tables
+  - toc:
+      permalink: false
+
+nav:
+  - Start: index.md
