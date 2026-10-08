@@ -24,3 +24,11 @@
   margin: 0 0 .4rem;
   font-size: .8rem;
 }
+
+/* Kein Logo in der Kopfzeile, bis es ein eigenes gibt.
+   Später: Logo unter website/assets/ ablegen, in mkdocs.yml unter theme: "logo: assets/logo.png" eintragen
+   und diesen Block hier löschen. */
+.md-header__button.md-logo,
+.md-nav__button.md-logo {
+  display: none;
+}
